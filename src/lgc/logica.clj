@@ -15,3 +15,14 @@
   (->> compras
        (group-by :categoria)
        (map compras-por-categoria)))
+
+(defn busca-por-valor
+  [compras valor]
+  (filter #(= valor (:valor %)) compras))
+
+(defn busca-por-loja
+  [compras loja]
+  (filter #(= loja (:loja %)) compras))
+
+
+

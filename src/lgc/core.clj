@@ -2,4 +2,4 @@
   (:require [lgc.dados :as dados]
             [lgc.logica :as logica]))
 
-(println logica/totais-por-categoria dados/compras)
+;(println (logica/totais-por-categoria dados/compras))
