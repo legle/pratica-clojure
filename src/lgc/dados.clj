@@ -1,5 +1,6 @@
 (ns lgc.dados)
 (use 'java-time)
+
 (def cliente1 {:id 1
                :nome "Leonardo"
                :cpf "12332112332"
